@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css ;ink  -->
+     <link rel="stylesheet" href="index.css">
+   <!-- tailwind and daisy link setup  -->
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+   <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+      <!-- navbar  -->
+     <div class="navbar bg-base-100">
+        <div class="navbar-start">
+     <a href="#"><img class="w-16 h-16" src="https://i.ibb.co/9NBJYhV/logo-512x512.webp" alt=""></a>
+     <a href="#"><img src="https://i.ibb.co/Wkzrn11/logo-removebg-preview.png" alt=""></a>
+          <div class="dropdown">
+            <div tabindex="0" role="button"   class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul 
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl"><img id="logo" src="./images/logo.PNG" alt=""></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul id="nav-btn" class="menu menu-horizontal px-1">
+            <li><a>Games</a></li>
+            <li><a>Market Place</a></li>
+            <li><a>Illivium DAO</a></li>
+            <li><a>News</a></li>
+            <li><a>Merchandise</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end gap-3">
+          <a id="playnow-btn" class="btn">Play Now</a>
+          <a id="account-btn" class="btn">Account</a>
+        </div>
+      </div>
+    
+
+
+
+
+</body>
+</html>

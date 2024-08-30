@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(to bottom, #2e184f 11%, #430150 74%);
+
+}
+#playnow-btn{
+    height: 50px;
+    width: 150px;
+    color: white;
+    font: 700;
+    background: linear-gradient(to bottom, #2d026e 11%, #0b010d 74%);
+
+}
+#account-btn{
+    height: 50px;
+    width: 150px;
+    color: white;
+    font: 700;
+    background: linear-gradient(to bottom, #0f0223 11%, #0b010d 74%);
+}
