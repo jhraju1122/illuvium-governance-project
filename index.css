@@ -1,6 +1,5 @@
 body{
-    background: linear-gradient(to bottom, #2e184f 11%, #430150 74%);
-
+    background: linear-gradient(to bottom, #000000 9%, #12071b 74%);
 }
 #playnow-btn{
     height: 50px;
@@ -16,4 +15,14 @@ body{
     color: white;
     font: 700;
     background: linear-gradient(to bottom, #0f0223 11%, #0b010d 74%);
+}
+ 
+#card1{
+    background-color: #0000009b;
+}
+#card2{
+    background-color: #0000009b;
+}
+#card3{
+    background-color: #0000009b;
 }
