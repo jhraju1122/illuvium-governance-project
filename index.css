@@ -32,3 +32,14 @@ body{
     height: 450px;
     width: 300px;
 }
+
+#power-of-people-card{
+    width: 250px;
+    height: 100px;
+    background: linear-gradient(to bottom, #010e26 11%, #3c0946 74%);
+     text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+}
+
